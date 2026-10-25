@@ -1,0 +1,21 @@
+# Case-study data: provided for the assessment, contains personal information
+data/
+*.xlsx
+
+# Scored outputs: include all original test columns (names), so keep them private
+submission/*.csv
+
+# Recruiter's brief
+docs/*.docx
+
+# Python / Jupyter
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Submission archive (contains the scored CSVs)
+*.zip

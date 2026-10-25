@@ -1,0 +1,11 @@
+# Loan Delinquency case study — packages needed to run Model_code_Atharva_Divekar.ipynb
+# Tested with Python 3.14.7. Install with: pip install -r requirements.txt
+numpy==2.5.4
+pandas==3.0.6
+pyarrow==25.0.1        # pandas text-column backend (keeps dtypes identical to the original run)
+openpyxl==3.1.5        # reading the .xlsx input files
+scipy==1.18.1
+scikit-learn==1.9.1
+catboost==1.2.10       # used only in the model comparison, not in the final model
+jupyter==1.1.1
+ipykernel==7.4.0
